@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 0.8rem;
-  font-family: Agdasima, sans-serif;
-  font-size: 1.4rem;
-  color: #fff;
-  background-color: #87b7ff;
-}
-
 .container {
   padding: 18px 18px;
 }
@@ -23,36 +7,6 @@ body {
 header {
   background-color: #106cf7;
   margin-bottom: 18px;
-}
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-}
-
-nav ul li {
-  margin-left: 12px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #106cf7;
-}
-
-.logo {
-  font-size: 2.6rem;
-}
-
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #3d8bff;
-  height: 60px;
 }
 
 header .container {

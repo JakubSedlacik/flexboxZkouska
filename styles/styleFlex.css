@@ -51,12 +51,6 @@ header #stromImg {
   transition: transform 0.5s;
 }
 
-.footerFlex {
-  position: absolute;
-  bottom: 0;
-  font-size: 0.8rem;
-}
-
 @media (max-width: 1040px) {
   header .containerFlex_1 {
     flex-direction: column;
